@@ -19,7 +19,7 @@ class Solution {
                   set.add(x);
                        }
                return false;
-            3.using hashmap
+           // 3.using hashmap
             Map<Integer, Integer> freq = new HashMap<>();
              for(int x : arr) freq.put(x, freq.getOrDefault(x, 0)+1);
 
@@ -28,7 +28,7 @@ class Solution {
     if(x != 0 && freq.containsKey(2*x)) return true;
 }
 return false;
-       4.Using sorting + binary search  O(nlogn)
+      // 4.Using sorting + binary search  O(nlogn)
         Arrays.sort(arr);
         for(int i=0;i<arr.length;i++){
             int target=2*arr[i];
