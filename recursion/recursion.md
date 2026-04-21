@@ -9,7 +9,7 @@ Steps to understand how to approach:
 2.Write recurrence relation if needed
 3.Draw recursion tree
 4.About the tree
-![Introduction](rec1.jpeg)
+![Introduction](images/rec1.jpeg)
 ![fibonacci](images/rec2.jpeg)
 ![Approach](images/rec3a.jpeg)
 ![Approach](images/rec3.jpeg)
