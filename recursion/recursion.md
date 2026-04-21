@@ -1,7 +1,10 @@
 
 Recursion:
+
 Meaning a function that calls itself 
+
 Insted of using multiple number of functions for same task we can call same function multiple times 
+
 Helps in solving bigger/complex problems
 
 Steps to understand how to approach:
