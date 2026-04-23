@@ -18,5 +18,5 @@ class GFG {
     }
 }
 ```
-![recursive flow diagram](images/dsa(1).png)
+![recursive flow diagram](images/dsa (1).png)
 
