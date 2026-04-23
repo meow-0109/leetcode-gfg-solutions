@@ -24,4 +24,4 @@ Learning with Kunal Kushwaha
 | 2026-04-19 | Strings revision | Revised Reverse string 2 ,string to atoi| Revised two problems (dry run) |
 | 2026-04-20 | Strings (Core) + Basics | Revised 2 problems + Longest Common Substring + Bit Manipulation (basics) | Strengthened DP substring logic + XOR & bit tricks intuition |
 | 2026-04-21 | recursion revision | fibonacci,sum of digits, 1 to N .N to 1 recursively| Understood approach,base cases|
-| 2026-04-23 | recursion | factorial| Understood approach, flow diagram |
+| 2026-04-23 | recursion | factorial,Factorial trailing zeros| Understood approach, flow diagram,Count factors of 5 using n/5 + n/25 + … (recursion/iteration, O(log n)) dry run with trailingzeros(100) which gives 24 at end  |
