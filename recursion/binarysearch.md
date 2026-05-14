@@ -22,6 +22,7 @@ class Solution {
     } 
 }
 ```
+
 T(n)=T(n/2)+1
 Which gives:
 
