@@ -29,3 +29,4 @@ Learning with Kunal Kushwaha
 | 2026-05-05 | patterns problems solved| Square filler, triangular (intuition)| Understood approach|
 | 2026-05-13 | recursion  |Binary Search using recursion| Time complexity,base cases|
 | 2026-05-19 | maths for dsa  |Range of numbers,number systems,revers array recursively|revised maths,pascal's triangle,soe amazon question(magic number ),number systems,Solved reverse array using recusrion|
+| 2026-05-20 | maths for dsa,recursion  |powers| |
