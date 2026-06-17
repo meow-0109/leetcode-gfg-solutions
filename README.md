@@ -31,4 +31,4 @@ Learning with Kunal Kushwaha
 | 2026-05-19 | maths for dsa  |Range of numbers,number systems,revers array recursively|revised maths,pascal's triangle,soe amazon question(magic number ),number systems,Solved reverse array using recusrion|
 | 2026-05-20 | maths for dsa,recursion  |powers| |
 | 2026-06-10 | recursion  | Count Zeros,reverse array ,palindrome| Understood approach,Logic building |
-| 2026-06-10 | recursion revision + level 1 questions  | Combination sum , length of string | Combinations and subsets,permutations of string,combination and permutation ,include exclude pattern |
+| 2026-06-17 | recursion revision + level 1 questions  | Combination sum , length of string | Combinations and subsets,permutations of string,combination and permutation ,include exclude pattern |
