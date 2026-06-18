@@ -521,3 +521,9 @@ class Solution {
     }
 }
 ```
+| Part                           | Complexity |
+| ------------------------------ | ---------- |
+| Time                           | O(n × 2ⁿ)  |
+| Aux Space (stack only)         | O(n)       |
+| Total Space (including answer) | O(n × 2ⁿ)  |
+
