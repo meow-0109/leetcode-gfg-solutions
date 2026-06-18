@@ -527,3 +527,59 @@ class Solution {
 | Aux Space (stack only)         | O(n)       |
 | Total Space (including answer) | O(n × 2ⁿ)  |
 
+
+2.Subsets ||
+First sort the array
+Here it is same like subsets but just remove duplicates 
+idea is that check if nums[index]==nums[index+1]
+move to next index
+```java
+class Solution {
+    public List<List<Integer>> subsetsWithDup(int[] nums) {
+    Arrays.sort(nums);
+    List<List<Integer>> ans=new ArrayList<>();
+    helper(0,nums,new ArrayList<>(),ans);
+    return ans;
+        
+    }
+
+    public void helper(int index,int[] nums,List<Integer> curr,List<List<Integer>> ans){
+        if(index==nums.length){
+            ans.add(new ArrayList<>(curr));
+            return;
+        }
+        //include
+        curr.add(nums[index]);
+        helper(index+1,nums,curr,ans);
+        //backtrack
+        curr.remove(curr.size()-1);
+        //exclude
+//Here consiser for duplicates
+        while(index+1 < nums.length && nums[index] == nums[index+1])
+        {
+            index++;
+        }
+    helper(index+1,nums,curr,ans);    
+    }
+}
+
+```
+Complexity
+
+Still:
+
+Time:
+
+O(n⋅2
+n
+)
+
+Space:
+
+O(n)
+
+Sorting adds:
+
+O(nlogn)
+
+but n·2^n dominates.
