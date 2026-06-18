@@ -492,3 +492,32 @@ Do these in order:
 Don't move to the next one until you can draw the recursion tree by hand.
 
 If you master **Subsets → Combination Sum → Permutations**, 80% of backtracking interview questions start looking like the same problem with slightly different rules.
+
+
+
+
+1.Subsets Leetcode 78
+```java
+class Solution {
+    public List<List<Integer>> subsets(int[] nums) {
+    List<List<Integer>> ans=new ArrayList<>();
+    helper(0,nums,new ArrayList<>(),ans);
+    return ans;
+        
+    }
+
+    public void helper(int index,int[] nums,List<Integer> curr,List<List<Integer>> ans){
+        if(index==nums.length){
+            ans.add(new ArrayList<>(curr));
+            return;
+        }
+        //include
+        curr.add(nums[index]);
+        helper(index+1,nums,curr,ans);
+        //backtrack
+        curr.remove(curr.size()-1);
+        //exclude
+        helper(index+1,nums,curr,ans);
+    }
+}
+```
