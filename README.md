@@ -32,3 +32,4 @@ Learning with Kunal Kushwaha
 | 2026-05-20 | maths for dsa,recursion  |powers| |
 | 2026-06-10 | recursion  | Count Zeros,reverse array ,palindrome| Understood approach,Logic building |
 | 2026-06-17 | recursion revision + level 1 questions  | Combination sum , length of string | Combinations and subsets,permutations of string,combination and permutation ,include exclude pattern |
+| 2026-07-01 | Arrays(Two pointer ) revision,recursion  |Two sum,Best time to buy and sell stock,max subarray,product of array except self (Interview focus) and similar patterns identified wit time complexity analysis,Letter combinations of phone number |Permutaions intution and recap of two pointer and kadane's algo with time complexity specifically worked on time complexity analysis |
