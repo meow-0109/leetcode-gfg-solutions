@@ -17,6 +17,8 @@ Mixtures and alligations
 Data interpretation — bar graphs, pie charts, tables, line graphs
 Geometry and mensuration — 2D and 3D shapes
 Algebra — linear and quadratic equations, inequalities
+
+
 ###Logical Reasoning
 Coding and decoding
 Blood relations
