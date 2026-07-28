@@ -24,4 +24,45 @@ The greedy algorithm for making change would work as follows:
 Step-1: Start with the largest coin value that is less than or equal to the amount to be changed. In this case, the largest coin less than or equal to 39 is 10.
 Step- 2: Subtract the largest coin value from the amount to be changed, and add the coin to the solution. In this case, subtracting 10 from 39 gives 29, and we add one 10-coin to the solution.
 Repeat steps 1 and 2 until the amount to be changed becomes 0.
+```java
+// Java Program to find the minimum number of coins
+// to construct a given amount using greedy approach
 
+import java.util.Arrays;
+
+class GfG {
+    static int minCoins(int[] coins, int amount) {
+        int n = coins.length;
+        Arrays.sort(coins);  
+        int res = 0;
+        
+        // Start from the coin with highest denomination
+        for (int i = n - 1; i >= 0; i--) {
+            if (amount >= coins[i]) {
+              
+                // Find the maximum number of ith coin we can use
+                int cnt = (amount / coins[i]);
+                
+                // Add the count to result
+                res += cnt;
+                
+                // Subtract the corresponding amount from 
+                // the total amount
+                amount -= (cnt * coins[i]);
+            }
+            
+            // Break if there is no amount left
+            if (amount == 0)
+                break;
+        }
+        return res;
+    }
+
+    public static void main(String[] args) {
+        int[] coins = {5, 2, 10, 1};
+        int amount = 39;
+      
+        System.out.println(minCoins(coins, amount));
+    }
+}
+```
